@@ -314,3 +314,28 @@ footer .contenedor{
 /*Finaliza card flip animation */
 
 /*FINALIZA ESTILO CONTENIDO TOTAL*/
+
+/*Diseño Responsive*/
+
+@media (max-width:768px){
+    .container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .sección1{
+        display: grid;
+        grid-template-columns: 100%;
+
+        padding: 10px;
+    }
+
+    .flip-card{
+        margin: 20px;
+    }
+
+    div.información{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+}
