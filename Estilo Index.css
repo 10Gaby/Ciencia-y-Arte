@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/*Estilo Menú*/
+header{
+    width: 100%;
+    background: #0288D1;
+    display: grid;
+    grid-template-rows: 1;
+
+    z-index: 999;
+}
+
+div.sub-header{
+    display: grid;
+    grid-template-columns: 70% 30%;
+
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+header img{
+    width: 30px;
+    height: 30px;
+}
+
+#btn-menu{
+    display: none;
+}
+
+header label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-left: 1px solid white;
+}
+
+header label:hover{
+    cursor: pointer;
+    background: rgba(0,0,0,0.3);
+}
+
+.menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu li a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu li{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.menu li:hover{
+    background: rgba(0,0,0,0.3);
+}
+
+.menu li a.presente{
+    text-decoration: 2px underline;
+}
+
+div.título1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    text-align: left;
+
+    padding: 12px;
+}
+
+@media (max-width:768px) {
+
+    div.sub-header{
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 15% 85%;
+    }
+
+    header label {
+        display: block;
+    }
+
+    .menu{
+        position: absolute;
+        background: #039BE5;
+        width: 70%;
+        margin-left: -70%;
+        transition: all 0.5s;
+    }
+
+    .menu ul{
+        flex-direction: column;
+    }
+
+    .menu li{
+        border-top: 1px solid white;
+    }
+
+    #btn-menu:checked ~ .menu {
+        margin: 0;
+    }
+}
+
+/*Finaliza Estilo Menú*/
+
+ /*inicia el estilo del slider*/
+
+ div.slider {
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul {
+    display:flex;
+    padding: 0;
+    width: 300%;
+
+    animation: cambio 10s infinite;
+    animation-timing-function: ease-out;
+}
+
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider img{
+    width: 100%;
+}
+
+@keyframes cambio{
+    0% { margin-left:0}
+    30% {margin-left: 0;}
+
+    35% {margin-left: -100%;}
+    65% {margin-left: -100%;}
+
+    70% {margin-left: -200%;}
+    100% {margin-left: -200%;}
+
+}
+
+/*Finaliza el estilo del slider*/
+
+
+/*Inicia Estilo Contenido*/
+
+.contenido-total{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+div.Zona1{
+    margin: 0px;
+}
+
+div.Zona2{
+    background: #5e5e5e;
+    color: white;
+    padding: 10px;
+}
+
+/*INICIA ESTILO ZONA 1*/
+p.contenido{
+    line-height: 1.5em;
+}
+div.Parte1{
+    margin: 40px;
+}
+
+div.Parte2{
+    background: #8c8c8c;
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+
+div.Parte2 img{
+    width: 200px;
+    display: block;
+    margin: auto;
+    padding: 15px;
+    border-radius: 150px;
+}
+
+div.ImgParte2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+p.Nombres{
+    font-style: italic;
+    font-size: 20px;
+}
+
+div.Parte1 img{
+    width: 450px;
+    margin: auto;
+    display: block;
+    padding: 10px;
+}
+
+div.vermás{
+    display: block;
+    text-align: center;
+}
+
+div.vermás a{
+    color: white;
+}
+
+/*FINALIZA ESTILO ZONA 1*/
+
+/*ESTILO ARTÍCULOS ZONA 2*/
+div.artículos{
+    border: 1px solid white;
+    padding: 10px;
+    margin: 25px;
+
+    background: #828282;
+}
+
+a.artículos{
+    color: white;
+}
+
+a.artículos:hover{
+    color: blue;
+}
+
+h2.título2{
+    text-align: center;
+}
+/*FINALIZA ESTILO ARTÍCULOS ZONA 2*/
+
+/*Finaliza Estilo Contenido*/
+
+/*INICIA ESTILO FOOTER*/
+
+footer  .contenedor{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+    background: #8c8c8c;
+    color: white;
+}
+
+/*FINALIZA ESTILO FOOTER*/
+
+
+/*RESPONSIVE CONTENIDO*/
+
+@media (max-width:768px){
+    .contenido-total{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+}
+
+/*FINALIZA RESPONSIVE CONTENIDO*/
