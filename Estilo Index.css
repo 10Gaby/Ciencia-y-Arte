@@ -289,6 +289,10 @@ footer  .contenedor{
         display: block;
         padding: 10px;
     }
+
+    div.slider img {
+        height: 400px;
+    }
 }
 
 /*FINALIZA RESPONSIVE CONTENIDO*/
