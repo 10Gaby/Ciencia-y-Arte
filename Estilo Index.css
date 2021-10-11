@@ -277,6 +277,18 @@ footer  .contenedor{
         display: grid;
         grid-template-columns: 100%;
     }
+
+    div.ImgParte2{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    div.Parte1 img{
+        width: 350px;
+        margin: auto;
+        display: block;
+        padding: 10px;
+    }
 }
 
 /*FINALIZA RESPONSIVE CONTENIDO*/
