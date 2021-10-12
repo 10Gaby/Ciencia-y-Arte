@@ -121,8 +121,22 @@ div.título1{
 
 /*FINALIZA ESTILO MENÚ*/
 
+
 /*INICIA ESTILO CONTENIDO TOTAL*/
 
+.portada{
+    background-image: url(IMG/3-Portada.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.portada h1{
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 200px;
+}
 
 /*FINALIZA ESTILO CONTENIDO TOTAL*/
