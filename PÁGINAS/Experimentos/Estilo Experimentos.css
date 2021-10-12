@@ -139,21 +139,4 @@ div.título1{
     padding-top: 200px;
 }
 
-.marquee{
-    width: 50%;
-    height: 60px;
-}
-
-.texto-animado{
-    color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 300px;
-    padding-right: 300px;
-    background: #a1a1a1;
-
-    font-size: 18px;
-    letter-spacing: 8px;
-}
-
 /*FINALIZA ESTILO CONTENIDO TOTAL*/
