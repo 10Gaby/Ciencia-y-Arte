@@ -241,4 +241,12 @@ footer .contenedor{
     .sección1{
         margin: 30px;
     }
+
+    .color.image1,.color.image2,.color.image3,.color.image4{
+        background-position: 50% 30%;
+    }
+
+    #fija tr td{
+        height: 150px;
+    }
 }
