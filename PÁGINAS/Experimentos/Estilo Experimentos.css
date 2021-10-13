@@ -139,20 +139,42 @@ div.título1{
     padding-top: 200px;
 }
 
-/*Inicia Estilo Acordeón*/
+/*Inicia Estilo sección1*/
+
+.sección1{
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.sección1 h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #0288D1;
+}
+
+.sección1 p{
+    line-height: 2em;
+    color: #828282;
+    text-align: justify;
+}
+
+/*Inicia Estilo sección2*/
+
+.sección2{
+    max-width: 960px;
+    margin: 0 auto;
+}
 
 #fija{
     height: 20%;
     width: 100%;
     table-layout: fixed;
-
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 40px;
+    margin-top: 40px;
 }
 
 #fija tr td{
-    border: 1px solid black;
     height: 250px;
 
     text-align: center;
@@ -196,4 +218,18 @@ div.título1{
     background-position: 50%;
 }
 
+.sección2 p.aviso{
+    text-align: center;
+    color: #828282;
+    margin-top: 5px;
+}
+
 /*FINALIZA ESTILO CONTENIDO TOTAL*/
+
+/*FOOTER*/
+
+footer .contenedor{
+    text-align: center;
+    padding: 50px;
+    color: #828282;
+}
