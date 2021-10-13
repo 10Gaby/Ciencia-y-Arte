@@ -233,3 +233,12 @@ footer .contenedor{
     padding: 50px;
     color: #828282;
 }
+
+
+/*Diseño Responsive*/
+
+@media (max-width:768px){
+    .sección1{
+        margin: 30px;
+    }
+}
