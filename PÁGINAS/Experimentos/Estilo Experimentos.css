@@ -168,7 +168,7 @@ div.título1{
 }
 
 #fija{
-    height: 20%;
+    height: 100%;
     width: 100%;
     table-layout: fixed;
     margin-top: 40px;
