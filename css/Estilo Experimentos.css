@@ -125,7 +125,7 @@ div.título1{
 /*INICIA ESTILO CONTENIDO TOTAL*/
 
 .portada{
-    background-image: url(IMG/3-Portada.jpg);
+    background-image: url(../IMG/Experimentos/3-Portada.jpg);
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -200,21 +200,21 @@ div.título1{
 }
 
 .color.image1{
-    background-image: url(IMG/1.jpg);
+    background-image: url(../IMG/Experimentos/1.jpg);
     background-position: 50%;
 }
 
 .color.image2{
-    background-image: url(IMG/2.jpg);
+    background-image: url(../IMG/Experimentos/2.jpg);
 }
 
 .color.image3{
-    background-image: url(IMG/3.jpg);
+    background-image: url(../IMG/Experimentos/3.jpg);
     background-position: 50%;
 }
 
 .color.image4{
-    background-image: url(IMG/4.jpg);
+    background-image: url(../IMG/Experimentos/4.jpg);
     background-position: 50%;
 }
 

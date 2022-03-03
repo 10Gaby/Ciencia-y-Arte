@@ -157,15 +157,15 @@ div.título1{
 }
 
 .parallax.image1{
-    background-image: url(IMG/2/2.jpg);
+    background-image: url(../IMG/Obras/2/2.jpg);
 }
 
 .parallax.image2{
-    background-image: url(IMG/2/1.jpg);
+    background-image: url(../IMG/Obras/2/1.jpg);
 }
 
 .parallax.image3{
-    background-image: url(IMG/2/3.jpg);
+    background-image: url(../IMG/Obras/2/3.jpg);
 }
 
 
