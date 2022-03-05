@@ -40,7 +40,6 @@ header label{
     width: 30px;
     height: 30px;
     padding: 10px;
-    border-left: 1px solid white;
 }
 
 header label:hover{
@@ -61,11 +60,6 @@ header label:hover{
     padding: 15px 20px;
     color: white;
     text-decoration: none;
-}
-
-.menu li{
-    border-left: 1px solid white;
-    border-right: 1px solid white;
 }
 
 .menu li:hover{
